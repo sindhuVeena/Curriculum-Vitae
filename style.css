@@ -1,0 +1,240 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background-image: linear-gradient(to right, #8a55a5, #795cca);
+}
+.navbar {
+  width: 100%;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  background: rgb(99, 98, 98);
+}
+
+#Career {
+  color: rgb(233, 230, 225);
+  margin-top: 25px;
+}
+#Career h4 {
+  border-bottom: 1px solid rgb(231, 228, 228);
+}
+#bomma {
+  height: 160px;
+}
+#vivaralu {
+  height: 100px;
+}
+
+.card {
+  border: none;
+  background: transparent;
+}
+.pic img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.peru {
+  display: flex;
+}
+.peru h4 {
+  margin-top: 55px;
+  margin-left: 10px;
+  border-bottom: 1px solid rgb(61, 60, 60);
+}
+#info {
+  margin-top: 40px;
+}
+#vivaralu {
+  color: aliceblue;
+}
+#social {
+  display: flex;
+}
+#social li a {
+  padding-right: 15px;
+}
+#social li a i {
+  color: aliceblue;
+  font-size: 25px;
+}
+#education h4 {
+  border-bottom: 1px solid rgb(231, 228, 228);
+}
+#education {
+  margin-top: 25px;
+}
+#edu {
+  box-shadow: 0 2px 5px;
+  margin-top: 20px;
+  text-align: center;
+}
+#edu h6 {
+  border-bottom: 1px solid rgb(231, 228, 228);
+}
+@media screen and (max-width: 419px) {
+  .mainperu {
+    text-align: center;
+    align-items: center;
+  }
+  #social {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  #info {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #vivaralu {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  #vivaralu {
+    margin-top: 30px;
+  }
+}
+#Skills h4 {
+  border-bottom: 1px solid rgb(231, 228, 228);
+}
+#Skills {
+  margin-top: 25px;
+}
+#mean img {
+  width: 100%;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+#mean {
+  border-radius: 7px;
+  border: none;
+  background-color: #fff;
+  margin-top: 20px;
+}
+.btns {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+.btns button:hover {
+  background-color: black;
+}
+#Projects h4 {
+  border-bottom: 1px solid rgb(231, 228, 228);
+}
+#Projects {
+  margin-top: 25px;
+}
+#Personal h4 {
+  border-bottom: 1px solid rgb(231, 228, 228);
+}
+#Personal {
+  margin-top: 25px;
+}
+#pro {
+  border-radius: 7px;
+  box-shadow: 0 2px 5px;
+  background-color: #fff;
+}
+#pro p {
+  padding-top: 20px;
+}
+section {
+  margin-top: 10px;
+}
+#activity h4 {
+  border-bottom: 1px solid rgb(231, 228, 228);
+}
+#activity {
+  margin-top: 25px;
+}
+#act {
+  border-radius: 7px;
+  box-shadow: 0 2px 5px;
+  background-color: #fff;
+}
+#act ul li {
+  padding-top: 5px;
+}
+.foots {
+  display: flex;
+}
+.foots h6 {
+  align-content: center;
+  text-align: right;
+  margin-left: 400px;
+}
+#naam {
+  color: wheat;
+}
+/*SKILL BAR CSS STARTS*/
+.skill-bar {
+  height: 5px;
+  background: #cacaca;
+  border-radius: 8px;
+  width: 100px;
+}
+
+.skill-per {
+  height: 5px;
+  background-color: #0fbcf9;
+  border-radius: 8px;
+
+  width: 100px;
+  transition: 1s linear;
+  position: relative;
+}
+
+.skill-per::before {
+  content: attr(per);
+  position: absolute;
+  padding: 4px 6px;
+  background-color: #000;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 4px;
+  top: -35px;
+  right: 0;
+  transform: translateX(50%);
+}
+
+.skill-per::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  top: -16px;
+  right: 0;
+  transform: translateX(50%) rotate(45deg);
+  border-radius: 2px;
+}
+#skil {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+/*SKILL BAR CSS ENDS*/
+.carousel-cell {
+  width: 100%;
+  height: 280px;
+  margin-right: 10px;
+
+  border-radius: 5px;
+}
+#photo {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+#photo h4 {
+  border-bottom: 1px solid rgb(231, 228, 228);
+}
